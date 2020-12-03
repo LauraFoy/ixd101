@@ -1,4 +1,4 @@
 IXD101 Portfolio Page
 =====================
 
-[Portfolio](https://laurabfoy.github.io/ixd101/index.html)
+[Portfolio](https://laurafoy.github.io/ixd101/index.html)
