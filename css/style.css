@@ -1,6 +1,6 @@
 /*-----UNIVERSAL STYLING------*/
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   color: #333;
   font-style: normal;
   background-color: #F8E8CE;
@@ -13,7 +13,7 @@ section, header {
 }
 
 header {
-  max-width: 1250px;
+  max-width: 1150px;
   color: #F8E8CE;
 }
 
@@ -21,14 +21,15 @@ header h1 {
   margin: 1em 0;
   font-size: 5.2em;
   font-weight: bold;
-  line-height: 1.2
+  line-height: 1.2;
+  padding-left: .2em;
 }
 
 /*-----BACKGROUNDS-----*/
 
 .background-colour {
   width: 100%;
-  padding: 4em 0;
+  padding: 2.5em 0;
   background: rgb(230,69,136);
   background: linear-gradient(45deg, rgba(230,69,136,1) 0%, rgba(245,140,45,1) 100%, rgba(250,137,45,1) 100%);
 }
@@ -59,26 +60,33 @@ h2 {
 }
 
 p{
-  font-size: 1.25;
+  font-family:'Libre Franklin', sans-serif;
+  font-size: 1.25em;
   line-height: 1.5;
   margin-bottom: 1em;
   font-weight: 200;
 }
 
+
+section {
+padding-bottom: 3em;
+}
+
+
 /*-----STYLING LINKS----*/
 
 a{
-  color: #49C4E5;
+  color: #1ac15e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E02B2B;
+  color: #178142;
   border-bottom: 1px dotted;
 }
 
 .background-colour a:hover {
-  color: #FFF6A7;
+  color: #F8E8CE;
 }
 /*----NAVIGATION-----*/
 
@@ -87,13 +95,14 @@ nav{
   left: 0;
   width: 100;
   background-color: #1DB159;
-  padding: 1em 1em;
-  font-size: 0.9em
+  padding: 1.25em 1.25em;
+  font-size: 1.25em;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 nav ul {
-  padding-right: 15vw;
-  text-align: right;
+
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -114,11 +123,12 @@ nav a:visited {
 
 nav a:hover {
   border-bottom: none;
-  color: #E02B2B;
+  color: #e64588;
   transition: all 0.3s ease-in-out;
 }
 
 .logo {
+  font-family: itc-benguiat, serif;
   font-size: 2em;
   font-weight: bold;
   text-align: left;
@@ -156,8 +166,8 @@ li {
 
 footer {
   text-align: center;
-  font-size: 0.707;
-  padding: 2em 0 8em 0;
+  font-size: 0.707em;
+  padding: 2em 0 6em 0;
   margin: auto;
   color: #F8E8CE;
   background: #1DB159 ;
